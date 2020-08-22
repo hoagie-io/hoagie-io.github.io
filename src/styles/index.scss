@@ -1,0 +1,38 @@
+@import '../styles/variables';
+
+* {
+    font-family: 'sans';
+    color: $text-purple;
+    letter-spacing: 0.035em;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: $dirty-white;
+}
+
+#___gatsby, #gatsby-focus-wrapper, .section, .layout {
+    width: 100%;
+}
+
+.container {
+    // Use vertical padding instead of real width
+    // for simpler responsiveness with mobile.
+    position: relative;
+    vertical-align: top;
+    max-width: $containerMaxWidth - (2 * $containerPaddingX);
+    width: 100%;
+    padding: 0 $containerPaddingX 0 $containerPaddingX;
+}
+
+.section {
+    min-height: 100%;
+    width: 100%;
+}

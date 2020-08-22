@@ -1,0 +1,11 @@
+$purple: #7B56BB;
+$dirty-white: #F2EDF8;
+$green: 12CA90;
+$text-purple: #57309B;
+
+/* ... Global Spacing ... */
+$mobilePaddingX: 10px;
+$containerMaxWidth: 1125px; 
+$containerPaddingX: 50px;
+/* Useful for some container-based fixed scaling */
+$containerWidth: $containerMaxWidth - 2 * $containerPaddingX;
