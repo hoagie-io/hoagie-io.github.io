@@ -1,5 +1,47 @@
 @import '../styles/variables';
 
 .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: $dirty-white;
     background: $purple;
+}
+
+.section h1 {
+    font-family: Nunito;
+    font-weight: normal;
+    font-size: 40px;
+    width: 630px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.section p {
+    width: 630px;
+    font-size: 20px;
+}
+
+$hoagie-height: 480px;
+
+.content .text {
+    padding-left: 300px;
+}
+
+.content .hoagie {
+    position: absolute;
+    top: -120px;
+    left: -30px;
+    transform: rotate(15deg);
+}
+
+.hoagies img {
+    position: absolute;
+}
+
+.hoagies .one {
+    left: 80%;
+    top: -210px;
+    transform: rotate(-15deg);
 }

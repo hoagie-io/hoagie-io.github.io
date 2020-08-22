@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@400;700&display=swap');
 @import '../styles/variables';
 
 * {
-    font-family: 'sans';
-    color: $text-purple;
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.035em;
 }
 
 html, body {
     max-width: 100%;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -15,11 +16,13 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     background: $dirty-white;
 }
 
-#___gatsby, #gatsby-focus-wrapper, .section, .layout {
+#___gatsby, #gatsby-focus-wrapper, .layout {
     width: 100%;
+    height: 100%;
 }
 
 .container {
@@ -33,6 +36,5 @@ body {
 }
 
 .section {
-    min-height: 100%;
     width: 100%;
 }
