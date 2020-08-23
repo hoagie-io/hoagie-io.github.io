@@ -61,7 +61,7 @@ const togetherTitle = 'Together'
 
 const Learn = () => {
   return (
-    <div className={style.section + ' section'}>
+    <div id="learn" className={style.section + ' section'}>
       <img src={dottedLine} />
       <ContentCard text={introText} />
       <img src={dottedLine} />

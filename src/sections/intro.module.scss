@@ -2,6 +2,7 @@
 
 .section {
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -11,16 +12,20 @@
 
 .section h1 {
     font-family: Nunito;
+    color: $white;
     font-weight: normal;
     font-size: 40px;
+    line-height: 45px;
     width: 630px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
 .section p {
+    color: $dirty-white;
     width: 630px;
     font-size: 20px;
+    line-height: 26px;
 }
 
 $hoagie-height: 480px;
@@ -36,6 +41,10 @@ $hoagie-height: 480px;
     transform: rotate(15deg);
 }
 
+.description {
+    margin-bottom: 40px;
+}
+
 .hoagies img {
     position: absolute;
 }
@@ -44,4 +53,11 @@ $hoagie-height: 480px;
     left: 80%;
     top: -210px;
     transform: rotate(-15deg);
+}
+
+.hoagies .two {
+    top: 100%;
+    left: 70%;
+    transform: rotate(15deg);
+    margin-top: -$hoagie-big-height/1.5;
 }
