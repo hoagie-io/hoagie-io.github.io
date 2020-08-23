@@ -1,0 +1,37 @@
+@import '../styles/variables';
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container {
+  margin: 20px;
+  width: 700px;
+  padding: 50px;
+  background: white;
+  border-radius: 20px;
+  font-family: 'Montserrat';
+}
+
+.title_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 49px;
+  color: $text-purple;
+  margin: 0;
+}
+
+p {
+  font-size: 26px;
+  line-height: 32px;
+  color: $black;
+  margin: 0;
+}
+
+b {
+    color: $black;
+}
