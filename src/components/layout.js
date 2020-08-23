@@ -5,9 +5,8 @@ import Footer from './footer';
 const Layout = (props) => {
     return (
         <div className="layout">
-            
             {props.children}
-            <Footer flipped={props.flipped} />
+            <Footer />
         </div>
     );
 }

@@ -1,5 +1,99 @@
 @import '../styles/variables';
 
 .section {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    color: $dirty-white;
     background: $purple;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.section h1 {
+    font-family: Nunito;
+    color: $white;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 45px;
+    max-width: 630px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.section p {
+    color: $dirty-white;
+    max-width: 630px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+$hoagie-height: 480px;
+
+.content .text {
+    padding-left: 300px;
+}
+
+.content .hoagie {
+    position: absolute;
+    top: -120px;
+    left: -30px;
+    transform: rotate(15deg);
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.hoagies img {
+    position: absolute;
+}
+
+.hoagies .one {
+    left: 80%;
+    top: -210px;
+    transform: rotate(-15deg);
+}
+
+.hoagies .two {
+    top: 100%;
+    left: 70%;
+    transform: rotate(15deg);
+    margin-top: -$hoagie-big-height/1.5;
+}
+
+@include nondesktop {
+    .content .text {
+        padding-left: 0px;
+    }
+    .content .hoagie {
+        transform: none;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .content .hoagie img {
+        height: 200px;
+    }
+    .hoagies {
+        display: none;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .buttons div {
+        display: block;
+        width: 190px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@include mobile {
+    .content h1 {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }
