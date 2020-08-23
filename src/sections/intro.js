@@ -4,7 +4,7 @@ import style from './intro.module.scss';
 const Intro = ()  => {
     return (
         <div className={style.section + " section"}>
-            Hi!
+            Hi!!!
         </div>
     );
 }
