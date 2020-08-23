@@ -82,7 +82,7 @@ const Learn = () => {
         color={variables.cardIconPurple}
         text={togetherText}
       />
-      <img src={hoagieIcon} className={style.footerIcon} />
+      <a href="#intro"><img width="65px" src={hoagieIcon} className={style.footerIcon} /></a>
     </div>
   )
 }

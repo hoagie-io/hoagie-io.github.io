@@ -18,14 +18,21 @@ $hoagie-big-height: 480px;
 /* ... Global Spacing ... */
 $mobilePaddingX: 10px;
 $containerMaxWidth: 1125px; 
-$containerPaddingX: 50px;
+$containerPaddingX: 60px;
 /* Useful for some container-based fixed scaling */
 $containerWidth: $containerMaxWidth - 2 * $containerPaddingX;
 
 $desktopWidth: $containerMaxWidth;
+$tabletWidth: 768px;
 
 @mixin nondesktop {
     @media (max-width:#{$desktopWidth - 1}) {
+      @content;
+    }
+  }
+
+  @mixin mobile {
+    @media (max-width: #{$tabletWidth - 1}) {
       @content;
     }
   }

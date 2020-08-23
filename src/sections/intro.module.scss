@@ -83,8 +83,17 @@ $hoagie-height: 480px;
         text-align: center;
     }
     .buttons div {
+        display: block;
         width: 190px;
         margin-right: 0px;
         margin-bottom: 10px;
+    }
+}
+
+
+@include mobile {
+    .content h1 {
+        font-size: 32px;
+        line-height: 35px;
     }
 }

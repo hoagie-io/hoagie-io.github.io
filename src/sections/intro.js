@@ -7,7 +7,7 @@ import Button from '../components/button';
 const Intro = ()  => {
     const formURL = 'https://forms.gle/Rh5BGj7YgzCdyo3Z7';
     return (
-        <div className={"section " + style.section}>
+        <div id="intro" className={"section " + style.section}>
             <div className={style.hoagies}>
                 <img className={style.one} alt="Hoagie" height={styleData.hoagieBigHeight} src={hoagie}></img>
                 <img className={style.two} alt="Hoagie" height={styleData.hoagieBigHeight} src={hoagie}></img>

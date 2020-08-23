@@ -33,9 +33,11 @@ function showTitle(title, color) {
 
 const ContentCard = props => {
   return (
-    <div className={style.container}>
-      {showTitle(props.title, props.color)}
-      <p>{props.text}</p>
+    <div className={style.container + " container"}>
+      <div className={style.card}>
+        {showTitle(props.title, props.color)}
+        <p>{props.text}</p>
+      </div>
     </div>
   )
 }
