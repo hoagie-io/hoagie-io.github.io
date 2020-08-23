@@ -21,3 +21,11 @@ $containerMaxWidth: 1125px;
 $containerPaddingX: 50px;
 /* Useful for some container-based fixed scaling */
 $containerWidth: $containerMaxWidth - 2 * $containerPaddingX;
+
+$desktopWidth: $containerMaxWidth;
+
+@mixin nondesktop {
+    @media (max-width:#{$desktopWidth - 1}) {
+      @content;
+    }
+  }

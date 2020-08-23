@@ -5,9 +5,11 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: 100%;
     color: $dirty-white;
     background: $purple;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .section h1 {
@@ -16,14 +18,14 @@
     font-weight: normal;
     font-size: 40px;
     line-height: 45px;
-    width: 630px;
+    max-width: 630px;
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
 .section p {
     color: $dirty-white;
-    width: 630px;
+    max-width: 630px;
     font-size: 20px;
     line-height: 26px;
 }
@@ -60,4 +62,29 @@ $hoagie-height: 480px;
     left: 70%;
     transform: rotate(15deg);
     margin-top: -$hoagie-big-height/1.5;
+}
+
+@include nondesktop {
+    .content .text {
+        padding-left: 0px;
+    }
+    .content .hoagie {
+        transform: none;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .content .hoagie img {
+        height: 200px;
+    }
+    .hoagies {
+        display: none;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .buttons div {
+        width: 190px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
 }

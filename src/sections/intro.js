@@ -14,7 +14,9 @@ const Intro = ()  => {
             </div>
             <div className="container">
                 <div className={style.content}>
-                    <img className={style.hoagie} alt="Hoagie" height={styleData.hoagieBigHeight} src={hoagie}></img>
+                    <div className={style.hoagie}>
+                        <img alt="Hoagie" height={styleData.hoagieBigHeight} src={hoagie}></img>
+                    </div>
                     <div className={style.text}>
                         <h1>
                             Hoagie is the digital experience club at Princeton
@@ -24,8 +26,10 @@ const Intro = ()  => {
                             <br />
                             <p>Our interests are UI/UX design and web app development.</p>
                         </div>
-                        <Button href={formURL} external={true}>Join Us</Button>
-                        <Button href="#learn" outlined={true}>Learn More</Button>
+                        <div className={style.buttons}>
+                            <Button href={formURL} external={true}>Join Us</Button>
+                            <Button href="#learn" outlined={true}>Learn More</Button>
+                        </div>
                     </div>
                 </div>
             </div>
