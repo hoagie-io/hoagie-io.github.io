@@ -3,7 +3,6 @@ import ContentCard from '../components/content_card'
 import dottedLine from '../components/dotted_line.svg'
 import hoagieIcon from '../components/footer_hoagie.svg'
 import style from './learn.module.scss'
-import variables from '../styles/variables.scss'
 
 const introText = (
   <>
@@ -67,19 +66,19 @@ const Learn = () => {
       <img src={dottedLine} />
       <ContentCard
         title={doingTitle}
-        color={variables.cardIconGreen}
+        color="green"
         text={doingText}
       />
       <img src={dottedLine} />
       <ContentCard
         title={learningTitle}
-        color={variables.cardIconRed}
+        color="red"
         text={learningText}
       />
       <img src={dottedLine} />
       <ContentCard
         title={togetherTitle}
-        color={variables.cardIconPurple}
+        color="purple"
         text={togetherText}
       />
       <a href="#intro"><img width="65px" src={hoagieIcon} className={style.footerIcon} /></a>

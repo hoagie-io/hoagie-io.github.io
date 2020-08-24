@@ -1,4 +1,4 @@
-@import '../styles/variables';
+@import '../styles/variables.module';
 
 .section {
     display: flex;
@@ -31,6 +31,10 @@
 }
 
 $hoagie-height: 480px;
+
+.content {
+    margin-top: -90px;
+}
 
 .content .text {
     padding-left: 300px;

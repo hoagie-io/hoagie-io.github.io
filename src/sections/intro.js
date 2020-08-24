@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './intro.module.scss';
-import styleData from '../styles/variables.scss'
+import styleData from '../styles/variables.module.scss'
 import hoagie from '../assets/hoagie_big.svg';
 import Button from '../components/button';
 

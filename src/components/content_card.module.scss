@@ -1,5 +1,4 @@
-@import '../styles/variables';
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import '../styles/variables.module';
 
 .container {
   display: flex;
@@ -21,6 +20,18 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.title_section svg .red {
+  fill: $red;
+}
+
+.title_section svg .purple {
+  fill: $purple;
+}
+
+.title_section svg .green {
+  fill: $card-icon-green
 }
 
 h1 {

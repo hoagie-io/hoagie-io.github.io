@@ -13,11 +13,11 @@ function showTitle(title, color) {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <rect
+                  className={style[color]}
                   width="59.6249"
                   height="59.6249"
                   rx="5"
                   transform="matrix(0.719782 -0.694201 0.719782 0.694201 0.38147 41.7334)"
-                  fill={color}
                 />
                 <rect
                   width="19.875"
