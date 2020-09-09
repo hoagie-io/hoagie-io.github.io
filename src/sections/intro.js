@@ -27,7 +27,7 @@ const Intro = ()  => {
                             <p>Our interests are UI/UX design and web app development.</p>
                         </div>
                         <div className={style.buttons}>
-                            <Button href={formURL} external={true}>Join Us</Button>
+                            {/* <Button href={formURL} external={true}>Join Us</Button> */}
                             <Button href="#learn" outlined={true}>Learn More</Button>
                         </div>
                     </div>

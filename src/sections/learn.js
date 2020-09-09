@@ -10,7 +10,7 @@ const introText = (
     together.
   </>
 )
-const doingText = (
+const learningText = (
   <>
     We meet on a regular basis to discuss and explore core concepts in{' '}
     <b>design</b> and <b>development</b>. <br />
@@ -23,7 +23,7 @@ const doingText = (
   </>
 )
 
-const learningText = (
+const doingText = (
   <>
     We have a few project teams that our members can join to <b>collaborate</b>{' '}
     with others and <b>practice</b> their design skills.
@@ -65,15 +65,15 @@ const Learn = () => {
       <ContentCard text={introText} />
       <img src={dottedLine} />
       <ContentCard
-        title={doingTitle}
+        title={learningTitle}
         color="green"
-        text={doingText}
+        text={learningText}
       />
       <img src={dottedLine} />
       <ContentCard
-        title={learningTitle}
+        title={doingTitle}
         color="red"
-        text={learningText}
+        text={doingText}
       />
       <img src={dottedLine} />
       <ContentCard
