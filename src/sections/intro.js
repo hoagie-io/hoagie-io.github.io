@@ -5,7 +5,7 @@ import hoagie from '../assets/hoagie_big.svg';
 import Button from '../components/button';
 
 const Intro = ()  => {
-    const formURL = 'https://forms.gle/Rh5BGj7YgzCdyo3Z7';
+    const formURL = 'https://forms.hoagie.io/apply';
     return (
         <div id="intro" className={"section " + style.section}>
             <div className={style.hoagies}>
@@ -27,7 +27,7 @@ const Intro = ()  => {
                             <p>Our interests are UI/UX design and web app development.</p>
                         </div>
                         <div className={style.buttons}>
-                            {/* <Button href={formURL} external={true}>Join Us</Button> */}
+                            <Button href={formURL} external={true}>Join Us</Button>
                             <Button href="#learn" outlined={true}>Learn More</Button>
                         </div>
                     </div>

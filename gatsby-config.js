@@ -14,12 +14,12 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-next-seo',
       options: {
-        title: `Hoagie - The Princeton Digital Experience Club`,
-        description: `Dreamed up for Princeton students, Hoagie is a creative space that fosters community-centered design and implementation.`,
+        title: `Hoagie - The Princeton Design Club and Community`,
+        description: `Dreamed up for Princeton students, Hoagie is a creative space that fosters community-centered design and implementation. We like UI/UX design, web development and more.`,
         canonical: 'https://www.hoagie.io/',
         openGraph: {
-          title: `Hoagie - The Princeton Digital Experience Club`,
-          description: `Dreamed up for Princeton students, Hoagie is a creative space that fosters community-centered design and implementation.`,
+          title: `Hoagie - The Princeton Design Club and Community`,
+          description: `Dreamed up for Princeton students, Hoagie is a creative space that fosters community-centered design and implementation. We like UI/UX design, web development and more.`,
           type: 'website',
           locale: 'en_US',
           url: 'https://www.hoagie.io/',

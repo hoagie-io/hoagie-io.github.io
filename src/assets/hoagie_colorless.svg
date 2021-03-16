@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="none" viewBox="0 0 80 161" xmlns="http://www.w3.org/2000/svg">
+<rect transform="rotate(-90 2.588 157.5)" x="2.588" y="157.5" width="137.95" height="74.912" rx="37.456" fill="#FAF6FF" stroke="#57309B" stroke-width="5"/>
+<rect transform="rotate(-90 7.492 145.6)" x="7.492" y="145.6" width="138.48" height="64.47" rx="32.235" fill="#FAF6FF" stroke="#57309B" stroke-width="5"/>
+<rect transform="matrix(-.6219 -.7831 .8117 -.58407 53.967 162.02)" x="-.474" y="3.418" width="77.493" height="30.998" rx="15.499" fill="#FAF6FF" stroke="#57309B" stroke-width="5"/>
+<path d="m60.507 140c-0.135-3.194-4.558-8.532-9.712-8.502" stroke="#57309B" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+<rect transform="rotate(-90 2.5 133.46)" x="2.5" y="133.46" width="130.96" height="74.912" rx="37.456" fill="#FAF6FF" stroke="#57309B" stroke-width="5"/>
+<circle transform="rotate(-90 26.25 94.75)" cx="26.251" cy="94.751" r="6.25" fill="#57309B"/>
+<circle transform="rotate(-90 53.75 94.75)" cx="53.751" cy="94.751" r="6.25" fill="#57309B"/>
+<path d="M77.25 55c-3.401-3.647-12.113-10.153-19.749-7.002M77.25 39.838C73.849 36.19 65.137 29.685 57.5 32.836M77.25 70.5c-3.401-3.647-12.113-10.153-19.749-7.002" stroke="#57309B" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

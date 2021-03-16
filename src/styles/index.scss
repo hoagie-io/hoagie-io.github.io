@@ -80,3 +80,49 @@ $button-height: 60px;
 .button.outlined:hover {
     background: $hover-purple;
 }
+
+.form-page {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    padding: 0px 25px 25px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $purple;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo-name {
+    font-weight:400;
+    font-family: Nunito;
+    color: $dirty-white;
+    font-size: 30px;
+}
+
+.logo-section {
+    padding: 40px 0px 20px 0px;
+} 
+
+.form-page .form-section, .form-page .logo-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-page .form {
+    width: 100%;
+    background: $white;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+    max-width: 1000px;
+}
